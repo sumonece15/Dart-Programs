@@ -1,0 +1,76 @@
+Dart Variable
+Variable is used to store the value and refer the memory location in computer memory. When we create a variable, the Dart compiler allocates some space in memory. The size of the memory block of memory is depended upon the type of variable. To create a variable, we should follow certain rules. Here is an example of a creating variable and assigning value to it.
+
+var name = 'Devansh';  
+Here the variable called name that holds 'Devansh' string value. In Dart, the variables store references. The above variable stores reference to a String with a value of Devansh.
+
+Rule to Create Variable
+Creating a variable with a proper name is an essential task in any programming language. The Dart has some rules to define a variable. These rules are given below.
+
+The variable cannot contain special characters such as whitespace, mathematical symbol, runes, Unicode character, and keywords.
+The first character of the variable should be an alphabet([A to Z],[a to z]). Digits are not allowed as the first character.
+Variables are case sensitive. For example, - variable age and AGE are treated differently.
+The special character such as #, @, ^, &, * are not allowed expect the underscore(_) and the dollar sign($).
+The variable name should be retable to the program and readable.
+How to Declare Variable in Dart
+We need to declare a variable before using it in a program. In Dart, The var keyword is used to declare a variable. The Dart compiler automatically knows the type of data based on the assigned to the variable because Dart is an infer type language. The syntax is given below.
+
+Syntax -
+
+var <variable_name>  = <value>;  
+or
+
+var <variable_name>;  
+Example -
+
+var name = 'Andrew'  
+In the above example, the variable name has allocated some space in the memory. The semicolon(;) is necessary to use because it separates program statement to another.
+
+Type Annotations
+As we had pointed out, The Dart is an infer language but it also provides a type annotation. While declaring the variable, it suggests the type of the value that variable can store. In the type annotation, we add the data type as a prefix before the variable's name that ensures that the variable can store specific data type. The syntax is given below.
+
+Syntax -
+
+<type> <variable_name>;  
+or
+
+<type> <name> = <expression>;  
+Example -
+
+int age;  
+String msg = "Welcome to JavaTpoint";  
+In the above example, we have declared a variable named age which will store the integer data. The variable named msg stored the string type data.
+
+Declaring the variable with Multiple Values
+Dart provides the facility to declare multiple values of the same type to the variables. We can do this in a single statement, and each value is separated by commas. The syntax is given below.
+
+Syntax -
+
+<type> <var1,var2....varN>;  
+Example -
+
+int i,j,k;  
+Default Value
+While declaring the variable without initializing the value then the Dart compiler provides default value (Null) to the variable. Even the numeric type variables are initially assigned with the null value. Let's consider the following example.
+
+int count;  
+assert(count == null);  
+Final and const
+When we do not want to change a variable in the future then we use final and const. It can be used in place of var or in addition to a type. A final variable can be set only one time where the variable is a compile-time constant. The example of creating a final variable is given below.
+
+Example -
+
+final name = 'Ricky';                               // final variable without type annotation.  
+final String msg = 'How are you?';     // final variable with type annotation.  
+If we try to change these values then it will throw an error.
+
+name = 'Roger';                                 // Error: Final variable can't be changed.  
+The const is used to create compile-time constants. We can declare a value to compile-time constant such as number, string literal, a const variable, etc.
+
+const a = 1000;  
+The const keyword is also used to create a constant value that cannot be changed after its creation.
+
+var f = const[];  
+If we try to change it, then it will throw an error.
+
+f = [12];    //Error, The const variable cannot be change  
