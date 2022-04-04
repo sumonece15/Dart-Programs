@@ -19,7 +19,7 @@ void main() {
       break;
   }
 
-//Program-2.............
+//Program-2............
   // declaring a interger variable
   int Roll_num = 90014;
 
