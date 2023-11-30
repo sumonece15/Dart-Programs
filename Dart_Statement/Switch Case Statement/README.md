@@ -66,7 +66,7 @@ print("Roll number is not found");
 
 }
 
-
+<p align="justify">
 1. Variable Declaration (int Roll_num = 90014;):
 Declares an integer variable Roll_num and initializes it with the value 90014.
 
@@ -77,3 +77,4 @@ Evaluate the value of Roll_num and compare it with different cases using case st
 In this case, the value of Roll_num is 90014, and there is no matching case. Therefore, the program executes the default block and prints "Roll number is not found."
 
 Both programs demonstrate the use of the switch statement to evaluate a variable and execute different blocks of code based on its value.
+</p>
