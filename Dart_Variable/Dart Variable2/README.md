@@ -14,12 +14,12 @@ Declares two string variables, fname and lname, and initializes them with the va
 </p>
 
 <p align="justify">
-2. String Concatenation (print(fname + " " + lname);):
+2. String Concatenation ('print(fname + " " + lname);'):
 Concatenates the values of fname, a space, and lname. The + operator is used for string concatenation in Dart. The result is a single string, combining the first name, a space, and the last name.
 </p>
 
 <p align="justify">
-3. Print Statement (print(...);):
+3. Print Statement ('print(...);'):
 Outputs the concatenated string to the console.
 </p>
 
