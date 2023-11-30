@@ -29,5 +29,5 @@ The program prints the concatenated string "Sumon Hossain" to the console.
 </p>
 
 <p align="justify">
-In summary, this program combines the first name and last name strings and prints the full name to the console. The output is:
+In summary, this program combines the first name and last name strings and prints the full name to the console. The output is: Sumon Hossain
 </p>
