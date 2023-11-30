@@ -1,7 +1,7 @@
 void main() {
-  String name = "Sumon";
+String name = "Sumon";
 
-  print(name);
+print(name);
 }
 
 1. Function Declaration (main):
