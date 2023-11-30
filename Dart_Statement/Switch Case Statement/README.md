@@ -29,14 +29,20 @@ break;
  
 }
 
+<p align="justify">
 1. Variable Declaration (int n = 3;):
 Declares an integer variable n and initializes it with the value 3.
+</p>
 
+<p align="justify">
 2. Switch Statement (switch (n) { ... }):
 Evaluate the value of n and compare it with different cases using case statements. If a match is found, the corresponding block of code is executed. The code in the default block is executed if no match is found.
+</p>
 
+<p align="justify">
 3. Output:
 In this case, the value of n is 3, so the program matches the case 3 and prints "Value is 3."
+</p>
 
 
 ###Program -02
@@ -69,12 +75,17 @@ print("Roll number is not found");
 <p align="justify">
 1. Variable Declaration (int Roll_num = 90014;):
 Declares an integer variable Roll_num and initializes it with the value 90014.
+</p>
 
+<p align="justify">
 2. Switch Statement (switch (Roll_num) { ... }):
 Evaluate the value of Roll_num and compare it with different cases using case statements. If a match is found, the corresponding block of code is executed. The code in the default block is executed if no match is found.
+</p>
 
+<p align="justify">
 3. Output:
 In this case, the value of Roll_num is 90014, and there is no matching case. Therefore, the program executes the default block and prints "Roll number is not found."
+</p>
 
 Both programs demonstrate the use of the switch statement to evaluate a variable and execute different blocks of code based on its value.
-</p>
+
