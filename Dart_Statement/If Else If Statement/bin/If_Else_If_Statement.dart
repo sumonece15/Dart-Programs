@@ -16,9 +16,4 @@ void main() {
   {
     print("Average");
   }
-
-
-
-
-
 }  
