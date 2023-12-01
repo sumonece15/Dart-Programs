@@ -13,7 +13,7 @@ void main(): This declares the main function. In Dart, the main function is the 
 
 <p align="justify">
 2. Variable Declaration (String name = "Sumon";):
-String name: This declares a variable named name of type String, which means it can store a sequence of characters (a string). = "Sumon";': This initializes the name variable with the string "Sumon".
+String name: This declares a variable named name of type String, which means it can store a sequence of characters (a string). = "Sumon";': This initializes the name variable with the string "Sumon"..
 </p>
 
 <p align="justify">
