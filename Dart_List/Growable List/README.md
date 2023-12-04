@@ -1,4 +1,3 @@
-<p style="color:red">
 var mylist = <String>[];
 
 mylist.add('Sumon');
@@ -14,8 +13,6 @@ mylist.add('Sufol');
 mylist.add('Saikat');
 
 print(mylist);
-
-</p>
 
 <p align="justify">
 1. Add Method:
