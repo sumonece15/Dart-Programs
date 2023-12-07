@@ -224,5 +224,5 @@ The content of the tools list is printed to the console.
 </p>
 
 <p align="justify">
-Each section demonstrates a different method for manipulating lists in Dart. The program outputs the contents of the lists after each operation..
+Each section demonstrates a different method for manipulating lists in Dart. The program outputs the contents of the lists after each operation.
 </p>
