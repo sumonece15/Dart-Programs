@@ -8,7 +8,7 @@ print(name);
 
 <p align="justify">
 1. Function Declaration (main):
-void main(): This declares the main function. In Dart, the main function is the entry point of the program. The void keyword indicates that the function does not return any value.
+void main(): This declares the main function. In Dart, the main function is the entry point of the program. The void keyword indicates that the function does not return any value..
 </p>
 
 <p align="justify">
