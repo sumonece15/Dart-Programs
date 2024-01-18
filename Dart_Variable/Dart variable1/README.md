@@ -18,7 +18,7 @@ String name: This declares a variable named name of type String, which means it 
 
 <p align="justify">
 3. Print Statement (print(name);):
-print(name);: This prints the value of the name variable to the console. In this case, it will print "Sumon"..
+print(name);: This prints the value of the name variable to the console. In this case, it will print "Sumon".
 </p>
 
 <p align="justify">
